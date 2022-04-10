@@ -25,7 +25,7 @@ a.nav-link {
     margin-left: 21px;
    margin-bottom: -5px;
 }
-img, svg {
+.logo, svg {
     vertical-align: middle;
     height: 50px;
     width: 50px;
@@ -88,4 +88,67 @@ button.btn-drak {
     color: white;
     float: right;
     margin-top: -3px;
+}
+section.topbox {
+    margin-top: 33px;
+    margin-left: -10px;
+}
+img.topleftpic {
+    width: 595px;
+    height: 205px;
+    float: left;
+    margin: auto;
+    /* margin-left: -10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px)
+{
+    nav.navbar.navbar-expand-lg.navbar-light {
+        float: right !important;
+        margin-right: -281px !important;
+    }
+    button.navbar-toggler {
+        font-size: 29px;
+    }
+    .mapicon {
+        float: right;
+        margin-top: -64px !important;
+        margin-right: 73px !important;
+    }
+    .buttondiv {
+        float: right;
+        margin-right: -216px !important;
+        margin-top: -78px !important;
+    }
+    button.btn-drak {
+        margin-right: 11px !important;
+    }
+    .logo {
+        width: 58px !important;
+        height: 58px !important;
+    }
+    img.topleftpic {
+        width: auto !important;
+    }
+
 }
