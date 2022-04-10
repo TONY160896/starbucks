@@ -109,7 +109,7 @@ img.topleftpic {
     width: 622px !important;
     height: 205px;
     float: right;
-    margin-right: -18px !important;
+    margin-right: -11px !important;
 }
 .tbtext {
     color: white;
@@ -134,9 +134,58 @@ button.join_starbucks {
     padding: 6px;
     border: 1px solid;
 }
-
-
-
+section.container-fluid.topboxsecound {
+    float: left;
+    margin-top: 37px;
+}
+.secondleft {
+    border: 1px solid black;
+    float: left;
+    background-color: #d4e9e2;
+}
+.planettext {
+    text-align: center;
+    color: #1e3932;
+    font-size: 43px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 133px;
+}
+.planetpara {
+    color: #1e3932;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 14px;
+    font-weight: 400;
+}
+.planetdiv {
+    width: 442px;
+    margin-left: 69px;
+}
+.secondright
+{
+    border: 1px solid red;
+    float: right;
+}
+.secondleft {
+    float: left;
+    background-color: #d4e9e2;
+    /* padding-left: 395px; */
+    padding-bottom: 140px;
+    width: 588px;
+}
+button.Learn {
+    width: 94px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 241px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 6px;
+    background-color: #d4e9e2;
+}
 
 
 
@@ -178,20 +227,19 @@ button.join_starbucks {
     }
     img.topleftpic {
         width: auto !important;
+        margin-left: -4px !important;
+        
     }
     .topboxright {
         float: left !important;
         /* width: 207%; */
-        width: 703px !important;
+        width: 712px !important;
+        margin-left: 6px !important;
     }
     h2.tbtext {
         font-size: 34px;
     }
-    .topboxright {
-        float: left !important;
-        margin-top: 205px !important;
-        height: 219px;
-    }
+   
     h2.tbtext {
         margin-top: 15px !important;
         margin-left: 26px !important;
