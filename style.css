@@ -93,18 +93,47 @@ section.topbox {
     margin-top: 33px;
     margin-left: -10px;
 }
+.topboxleft {
+    float: left;
+    width: 0px !important;
+}
 img.topleftpic {
-    width: 595px;
+    width: 622px;
     height: 205px;
     float: left;
     margin: auto;
     /* margin-left: -10px; */
 }
+.topboxright {
+    background-color: #1e3932;
+    width: 622px !important;
+    height: 205px;
+    float: right;
+    margin-right: -18px !important;
+}
+.tbtext {
+    color: white;
+    text-align: center;
+    padding-top: 37px;
+    font-size: 21px;
+}
 
-
-
-
-
+button.join_starbucks {
+    /* height: 47px; */
+    width: 195px;
+    float: none;
+    border-radius: 28px;
+    text-align: center;
+    /* background-color: white; */
+    margin-left: 198px;
+    margin-top: 22px;
+    background-color: #1e3932;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px;
+    border: 1px solid;
+}
 
 
 
@@ -149,6 +178,31 @@ img.topleftpic {
     }
     img.topleftpic {
         width: auto !important;
+    }
+    .topboxright {
+        float: left !important;
+        /* width: 207%; */
+        width: 703px !important;
+    }
+    h2.tbtext {
+        font-size: 34px;
+    }
+    .topboxright {
+        float: left !important;
+        margin-top: 205px !important;
+        height: 219px;
+    }
+    h2.tbtext {
+        margin-top: 15px !important;
+        margin-left: 26px !important;
+        font-size: 28px;
+    }
+    button.join_starbucks {
+        margin-left: 229px !important;
+        height: 70px;
+        font-size: 18px !;
+        width: 244px !important;
+        font-size: 19px;
     }
 
 }
