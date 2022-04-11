@@ -162,16 +162,22 @@ section.container-fluid.topboxsecound {
     width: 442px;
     margin-left: 69px;
 }
-.secondright
-{
-    border: 1px solid red;
+.secondright {
+    border: 1px solid #361e1e00;
     float: right;
+    padding-left: 618px;
+    height: 566px;
+    margin-right: 2px;
+    background-image: url(img/planetpositive.webp);
+    background-size: cover;
+    margin-top: -566px;
 }
+
 .secondleft {
     float: left;
     background-color: #d4e9e2;
     /* padding-left: 395px; */
-    padding-bottom: 140px;
+    padding-bottom: 122px;
     width: 588px;
 }
 button.Learn {
@@ -180,13 +186,84 @@ button.Learn {
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
-    margin-left: 241px;
+    margin-left: 241px !important;
     font-size: 13px;
     font-weight: 500;
     margin-top: 6px;
     background-color: #d4e9e2;
 }
 
+section.container-fluid.thirddiv {
+    
+    float: left;
+    margin-top: 32px;
+}
+
+.leftpic {
+    width: 589px;
+}
+.lefttextdown {
+    background-color: #1e3932;
+    margin-right: 4px;
+    padding-bottom: 17px;
+}
+.iced {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+    /* padding-top: 28px; */
+    font-size: 54px;
+}
+.icediv {
+    width: 510px;
+    margin-left: 35px;
+    
+}
+
+
+p.icedpara {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 6px;
+}
+.righttextdown
+{
+    background-color: #1e3932;
+    margin-right: 4px;
+    padding-bottom: 17px;
+}
+button.odernow {
+    text-align: center;
+    margin-left: 224px;
+    width: 96px;
+    height: 35px;
+    border-radius: 19px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #1e3932;
+}
+.Cheerfullyhead {
+    color: white;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 26px;
+}
+p.chiledpara {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    margin-top: 50px;
+}
 
 
 
@@ -233,11 +310,18 @@ button.Learn {
     .topboxright {
         float: left !important;
         /* width: 207%; */
-        width: 712px !important;
+        width: 702px !important;
         margin-left: 6px !important;
     }
     h2.tbtext {
         font-size: 34px;
+    }
+    .planetdiv {
+        width: 442px;
+        margin-left: 137px !important;
+    }
+    button.Learn {
+        margin-left: 318px !important;
     }
    
     h2.tbtext {
@@ -251,6 +335,19 @@ button.Learn {
         font-size: 18px !;
         width: 244px !important;
         font-size: 19px;
+    }
+    .secondleft {
+        width: 690px !important;
+    }
+    .secondright {
+        border: 1px solid #361e1e00;
+        float: right;
+        padding-left: 700px !important;
+        height: 566px !important;
+        margin-right: -361px !important;
+        background-image: url(img/planetpositive.webp);
+        background-size: cover;
+        margin-top: 0px !important;
     }
 
 }
