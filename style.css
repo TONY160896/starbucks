@@ -139,7 +139,7 @@ section.container-fluid.topboxsecound {
     margin-top: 37px;
 }
 .secondleft {
-    border: 1px solid black;
+    
     float: left;
     background-color: #d4e9e2;
 }
@@ -238,7 +238,7 @@ p.icedpara {
 }
 button.odernow {
     text-align: center;
-    margin-left: 224px;
+    margin-left: 240px;
     width: 96px;
     height: 35px;
     border-radius: 19px;
@@ -264,6 +264,119 @@ p.chiledpara {
     /* letter-spacing: 1px; */
     margin-top: 50px;
 }
+.vegi {
+   
+    width: 607px;
+    height: 361px;
+    background-image: url(img/Vegetarianpic.jpg);
+    background-size: cover;
+    justify-content: center;
+    float: left;
+}
+.row {
+    margin-bottom: 25px;
+}
+.leftvegi {
+    background-color: #1e3932;
+    margin-left: -8px;
+    padding-bottom: 80px;
+}
+h1.Vegetarian {
+    color: white;
+    text-align: center;
+    padding-top: 73px;
+    font-size: 28px;
+}
+
+p.vegipara {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+.vegidiv {
+    
+    width: 402px;
+    margin-left: 97px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.goodday {
+   
+    width: 607px;
+    height: 361px;
+    background-color: #d4e9e2;
+    background-size: cover;
+    justify-content: center;
+    float: left;
+}
+h2.gooddaytext {
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 80px;
+    font-weight: 700;
+}
+h3.gooddaytwo {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 43px;
+}
+button.odernownew {
+    text-align: center;
+    margin-left: 240px;
+    width: 96px;
+    height: 35px;
+    border-radius: 19px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #d4e9e2;
+}
+
+.gooddayleft {
+    margin-left: -8px;
+    padding-bottom: 360px;
+    background-image: url(img/137-77302.webp);
+    background-size: cover;
+}
+.fidth
+{
+    
+}
+.fidthleft{
+     width: 607px;
+    height: 361px;
+    background-color: #d4e9e2;
+    background-size: cover;
+    justify-content: center;
+    float: left;
+    border: 1px solid;
+}
+.fidthright {
+    background-color: #d4e9e2;
+    margin-left: -8px;
+    padding-bottom: 43px;
+}
+.earningheading {
+    color: black;
+    text-align: center;
+    padding-top: 28px;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+p.earningpara {
+    text-align: center;
+    font-size: 22px;
+}
+
+.paradivlast {
+   
+    width: 513px;
+    margin-left: 47px;
+    /* margin-top: 14px; */
+}
 
 
 
@@ -272,11 +385,7 @@ p.chiledpara {
 
 
 
-
-
-
-
-@media screen and (max-width: 900px)
+@media screen and (max-width: 600px)
 {
     nav.navbar.navbar-expand-lg.navbar-light {
         float: right !important;
