@@ -352,7 +352,7 @@ button.odernownew {
     background-size: cover;
     justify-content: center;
     float: left;
-    border: 1px solid;
+   
 }
 .fidthright {
     background-color: #d4e9e2;
@@ -377,7 +377,65 @@ p.earningpara {
     margin-left: 47px;
     /* margin-top: 14px; */
 }
-
+.carddiv {
+    /* border: 1px solid red; */
+    /* padding-left: 197px; */
+    /* padding-bottom: 343px; */
+    float: left;
+    background-image: url(img/card.jpg);
+    width: 605px;
+    margin-top: 11px;
+    height: 336px;
+    background-size: cover;
+}
+.footerbottomrow {
+    border-bottom: 1px solid black;
+    padding-bottom: 21px;
+}
+p.bottompara {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 68px;
+}
+.bottomparatwo {
+    text-align: center;
+    /* padding-top: 96px; */
+    margin-top: -24px;
+    /* margin-bottom: 54px; */
+    padding-top: 83px;
+    font-weight: 500;
+}
+.col-sm-12.col-lg-2.col-md-2.colmenu {
+    padding-left: 40px;
+    margin-left: 10px;
+}
+h3.bottomheading {
+    font-size: 16px;
+    padding-top: 19px;
+}
+ul {
+    text-align: start;
+    padding: 0px;
+    margin-left: -2px;
+    padding-top: 5px;
+    list-style: none;
+}
+li {
+    /* padding-bottom: 19px; */
+    margin-bottom: 4px;
+    padding-top: 18px;
+    font-size: 14px;
+    /* padding: 6px; */
+    margin-left: -27px;
+    padding-left: -13px;
+}
+hr {
+    width: 1116px;
+    margin-left: 40px;
+    height: 2px solid;
+    /* border: 2px solid; */
+}
 
 
 
@@ -457,6 +515,10 @@ p.earningpara {
         background-image: url(img/planetpositive.webp);
         background-size: cover;
         margin-top: 0px !important;
+    }
+    li {
+        
+        width: 0px !important;
     }
 
 }
