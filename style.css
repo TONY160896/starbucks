@@ -19,10 +19,10 @@
 .nav-item{
     /* padding-bottom: 19px; */
     margin-bottom: 4px;
-    padding-top: 3px;
+    padding-top: 3px !important;
     font-size: 14px;
     
-    padding-left: 43px;
+    padding-left: 43px !important;
 }
 .menubar {
     border-bottom: 2px solid #00000021;
