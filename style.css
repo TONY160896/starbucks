@@ -16,6 +16,14 @@
     padding-left: 33px;
     
 }
+.nav-item{
+    /* padding-bottom: 19px; */
+    margin-bottom: 4px;
+    padding-top: 3px;
+    font-size: 14px;
+    
+    padding-left: 43px;
+}
 .menubar {
     border-bottom: 2px solid #00000021;
    padding-top: 19px;
@@ -588,9 +596,6 @@ p.copyright {
         background-size: cover;
         margin-top: 0px !important;
     }
-    li {
-        
-        width: 0px !important;
-    }
+    
 
 }
