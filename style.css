@@ -341,10 +341,7 @@ button.odernownew {
     background-image: url(img/137-77302.webp);
     background-size: cover;
 }
-.fidth
-{
-    
-}
+
 .fidthleft{
      width: 607px;
     height: 361px;
@@ -431,12 +428,87 @@ li {
     padding-left: -13px;
 }
 hr {
-    width: 1116px;
-    margin-left: 40px;
-    height: 2px solid;
-    /* border: 2px solid; */
+    width: 1136px;
+    
+    float: left;
+    height: 2px !important;
 }
-
+ul.iconul {
+    margin-left: 9px;
+    float: left;
+    margin-top: -36px;
+}
+li.footericons {
+    float: left;
+    padding: 23px;
+    margin-left: -36px;
+    padding-left: 28px;
+    font-size: 31px;
+    margin-top: -18px;
+}
+.instadiv {
+    background-color: black;
+    border-radius: 23px;
+    width: 33px;
+    height: 33px;
+    margin-top: 7px;
+}
+i.fa-brands.fa-instagram {
+    color: white;
+    font-size: 20px;
+    margin-left: 6px;
+    position: absolute;
+    margin-top: 6px;
+    align-items: center;
+    font-size: 24px;
+}
+i.fa-brands.fa-youtube {
+    color: white;
+    font-size: 19px;
+    margin-left: 6px;
+    position: absolute;
+    margin-top: 7px;
+}
+i.fa-brands.fa-twitter {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.footerul {
+    margin-left: -470px;
+    float: left;
+    padding-left: 36px;
+}
+.lidiv {
+    border-left: 1p;
+    border-right: 2px solid #000000c9;
+    padding-right: 17px;
+    height: 23px;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: -3px;
+    /* font-size: 3px; */
+}
+h5 {
+    font-size: 14px;
+    margin-top: 3px;
+}
+li.footerli {
+    float: left;
+    margin-left: 148px;
+    margin-right: -3px;
+}
+.Cookie {
+    margin-left: -27px;
+    margin-top: 19px;
+}
+p.copyright {
+    float: left;
+    margin-left: 24px;
+    color: #00000082;
+}
 
 
 
